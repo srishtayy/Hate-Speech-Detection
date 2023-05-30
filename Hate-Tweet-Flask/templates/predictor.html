@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <title>Hate Speech Detection</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/css/util.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+  <style>
+    body{
+      
+      /*background-position: 95% 10%, 5% 10%;*/
+      /* background-position: right center, left center; */
+     
+      /*background-attachment: inherit;*/
+      background-repeat: no-repeat, no-repeat;
+      /*background-color: #E6E2E1;*/
+      font-family: 'Work Sans', sans-serif;
+      background-image: url('https://app.centre.my/uploads/2021/07/cyberbully-featimg.png');
+      opacity: 0.7; /* Adjust the opacity value (0.0 - 1.0) */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    h1 { color: #000000; }
+
+  </style>
+
+  <div id="example1" class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100">
+          <div style="max-width:25%; margin-left: auto; margin-right: auto;">
+            <center>
+              
+            </center>
+          </div>
+
+  <form action="/">
+    <div style="text-align: center;" id="tweet-form">
+     
+      <br>
+       
+        <br>
+        <br>
+        <br>
+    
+        <center>
+          <input align = "center" type="text" name="chat_in" autofocus="autofocus" value="{{x_input}}" maxlength="500" id="rcorners2" placeholder="Enter your tweet here">
+        </center>
+    <br>
+    <!-- Submit button -->
+    <center>
+    <input align="center" type="submit" value="Predict" method="get" id="rcorners1">
+  </center>
+    <br>
+       
+   
+  </form>
+    </div>
+    <!-- {% for p in prediction %}
+      <br>  {{p['name']}}:{{ (100*p['prob']) | round }}%
+    {% endfor %} -->
+  </p>
+          <br>
+          <table>
+            <thead>
+              <tr class="table100-head">
+                <th class="column1">Tweet Input</th>
+                <th colspan="2" class="column1">Prediction and Hate Probability</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td rowspan="6" class="column1">{{ chat_in }}</td>
+                  <!-- <td rowspan="6" class="column1">{{ chat_in }}</td> -->
+                  <td class="column1">{{ prediction_class }}</td>
+                  <td class="column2">{{ prediction_prob }}%</td>
+                </tr>
+                
+                
+            </tbody>
+          </table>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--===============================================================================================-->
+  <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/bootstrap/js/popper.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
