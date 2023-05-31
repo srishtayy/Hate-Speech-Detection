@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/hafidhfikri/Practice-Twitter-Sentiment-Analysi
 3) Multinomial Naive Bayes
 4) SVM
 5) AdaBoost
-6) GradientBoost
+6) Gradient Boosting
 
 # Performance Metrics
 
