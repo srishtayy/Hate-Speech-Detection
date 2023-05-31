@@ -9,6 +9,15 @@ Dataset Used (Binary):
 
 https://raw.githubusercontent.com/hafidhfikri/Practice-Twitter-Sentiment-Analysis/master/train_E6oV3lV.csv
 
+Machine Learning Models Used:
+
+1) Logistic Regression
+2) Random Forest
+3) Multinomial Naive Bayes
+4) SVM
+5) AdaBoost
+6) GradientBoost
+
 # Performance Metrics
 
 Metrics on validation set
