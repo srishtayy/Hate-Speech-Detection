@@ -5,11 +5,11 @@ Website for predicting whether the input text is a hate speech or not
 ![Screenshot (407)](https://github.com/srishtayy/Hate-Speech-Detection/assets/88854623/419acf01-c2ce-4af4-a2f7-bfb683cfdcb3)
 
 
-Dataset Used (Binary):
+# Dataset Used (Binary)
 
 https://raw.githubusercontent.com/hafidhfikri/Practice-Twitter-Sentiment-Analysis/master/train_E6oV3lV.csv
 
-Machine Learning Models Used:
+# Machine Learning Models
 
 1) Logistic Regression
 2) Random Forest
