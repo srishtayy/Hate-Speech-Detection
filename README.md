@@ -2,6 +2,8 @@
 Website for predicting whether the input text is a hate speech or not
 
 ![Screenshot (400)](https://github.com/srishtayy/Hate-Speech-Detection/assets/88854623/96518eb6-2cf4-4db0-9dea-e3f3e1bd5eb5)
+![Screenshot (407)](https://github.com/srishtayy/Hate-Speech-Detection/assets/88854623/419acf01-c2ce-4af4-a2f7-bfb683cfdcb3)
+
 
 Dataset Used (Binary):
 
